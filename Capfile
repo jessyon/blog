@@ -26,7 +26,7 @@ require "capistrano/deploy"
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 
-load 'deploy'
+#load 'deploy'
 # Uncomment if you are using Rails' asset pipeline
 load 'deploy/assets'
 Dir['vendor/gems/*/recipes/*.rb','vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
